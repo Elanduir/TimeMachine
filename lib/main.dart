@@ -100,22 +100,20 @@ class _MyHomePageState extends State<MyHomePage> {
     player = AudioPlayer();
 
     subTStyle =  TextStyle(
-      fontSize: 60,
-      fontWeight: FontWeight.bold,
+      fontSize: 80,
       color: defaultGreen,
     );
 
     subCStyle = TextStyle(
-      fontSize: 80,
-      fontWeight: FontWeight.bold,
+      fontSize: 100,
       color: defaultGreen,
     );
 
-    tStyle = GoogleFonts.chakraPetch(
+    tStyle = GoogleFonts.vt323(
       textStyle: subTStyle,
     );
 
-    cStyle = GoogleFonts.chakraPetch(
+    cStyle = GoogleFonts.vt323(
       textStyle: subCStyle,
     );
 
